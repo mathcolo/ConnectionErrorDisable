@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65379F2B1AB8CE2600965A6D /* NSAlert+Fix.m in Sources */ = {isa = PBXBuildFile; fileRef = 65379F2A1AB8CE2600965A6D /* NSAlert+Fix.m */; };
+		65379F2E1AB8CE6100965A6D /* ConnectionErrorDisable.m in Sources */ = {isa = PBXBuildFile; fileRef = 65379F2D1AB8CE6100965A6D /* ConnectionErrorDisable.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		65379F1F1AB8CDA100965A6D /* ConnectionErrorDisable.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConnectionErrorDisable.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		65379F231AB8CDA100965A6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65379F291AB8CE2600965A6D /* NSAlert+Fix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAlert+Fix.h"; sourceTree = "<group>"; };
+		65379F2A1AB8CE2600965A6D /* NSAlert+Fix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAlert+Fix.m"; sourceTree = "<group>"; };
+		65379F2C1AB8CE6100965A6D /* ConnectionErrorDisable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionErrorDisable.h; sourceTree = "<group>"; };
+		65379F2D1AB8CE6100965A6D /* ConnectionErrorDisable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectionErrorDisable.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65379F1C1AB8CDA100965A6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65379F161AB8CDA100965A6D = {
+			isa = PBXGroup;
+			children = (
+				65379F211AB8CDA100965A6D /* ConnectionErrorDisable */,
+				65379F201AB8CDA100965A6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65379F201AB8CDA100965A6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65379F1F1AB8CDA100965A6D /* ConnectionErrorDisable.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65379F211AB8CDA100965A6D /* ConnectionErrorDisable */ = {
+			isa = PBXGroup;
+			children = (
+				65379F2C1AB8CE6100965A6D /* ConnectionErrorDisable.h */,
+				65379F2D1AB8CE6100965A6D /* ConnectionErrorDisable.m */,
+				65379F291AB8CE2600965A6D /* NSAlert+Fix.h */,
+				65379F2A1AB8CE2600965A6D /* NSAlert+Fix.m */,
+				65379F221AB8CDA100965A6D /* Supporting Files */,
+			);
+			path = ConnectionErrorDisable;
+			sourceTree = "<group>";
+		};
+		65379F221AB8CDA100965A6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65379F231AB8CDA100965A6D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65379F1E1AB8CDA100965A6D /* ConnectionErrorDisable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65379F261AB8CDA100965A6D /* Build configuration list for PBXNativeTarget "ConnectionErrorDisable" */;
+			buildPhases = (
+				65379F1B1AB8CDA100965A6D /* Sources */,
+				65379F1C1AB8CDA100965A6D /* Frameworks */,
+				65379F1D1AB8CDA100965A6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConnectionErrorDisable;
+			productName = ConnectionErrorDisable;
+			productReference = 65379F1F1AB8CDA100965A6D /* ConnectionErrorDisable.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65379F171AB8CDA100965A6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Preston Mueller";
+				TargetAttributes = {
+					65379F1E1AB8CDA100965A6D = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 65379F1A1AB8CDA100965A6D /* Build configuration list for PBXProject "ConnectionErrorDisable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 65379F161AB8CDA100965A6D;
+			productRefGroup = 65379F201AB8CDA100965A6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65379F1E1AB8CDA100965A6D /* ConnectionErrorDisable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65379F1D1AB8CDA100965A6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65379F1B1AB8CDA100965A6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65379F2B1AB8CE2600965A6D /* NSAlert+Fix.m in Sources */,
+				65379F2E1AB8CE6100965A6D /* ConnectionErrorDisable.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		65379F241AB8CDA100965A6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		65379F251AB8CDA100965A6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		65379F271AB8CDA100965A6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ConnectionErrorDisable/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		65379F281AB8CDA100965A6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ConnectionErrorDisable/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65379F1A1AB8CDA100965A6D /* Build configuration list for PBXProject "ConnectionErrorDisable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65379F241AB8CDA100965A6D /* Debug */,
+				65379F251AB8CDA100965A6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65379F261AB8CDA100965A6D /* Build configuration list for PBXNativeTarget "ConnectionErrorDisable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65379F271AB8CDA100965A6D /* Debug */,
+				65379F281AB8CDA100965A6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65379F171AB8CDA100965A6D /* Project object */;
+}
